@@ -5,7 +5,7 @@ PortGroup           compiler_blacklist_versions 1.0
 PortGroup           meson 1.0
 
 name                gexiv2
-version             0.14.5
+version             0.14.6
 revision            0
 
 categories          gnome graphics
@@ -23,9 +23,9 @@ set branch          [join [lrange [split ${version} .] 0 1] .]
 master_sites        gnome:sources/${name}/${branch}/
 use_xz              yes
 
-checksums           rmd160  e3a79080210a5bcd80393a25e996f69e4d13c726 \
-                    sha256  0913c53daabab1f1ab586afd55bb55370796f2b8abcc6e37640ab7704ad99ce1 \
-                    size    390860
+checksums           rmd160  b083c8a756fd855ffeb3a64d6d159847d4c83514 \
+                    sha256  606c28aaae7b1f3ef5c8eabe5e7dffd7c5a1c866d25b7671fb847fe287a72b8b \
+                    size    391436
 
 # Disable unexpected download of subprojects
 meson.wrap_mode     nodownload
