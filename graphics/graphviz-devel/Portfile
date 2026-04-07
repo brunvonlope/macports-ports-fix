@@ -7,10 +7,10 @@ PortGroup                       xcodeversion 1.0
 
 name                            graphviz-devel
 set my_name                     graphviz
-version                         14.1.2
-checksums                       rmd160  4d4ba233d6444d9cc6378b1af80a93fca8107b9f \
-                                sha256  65572cd29317cfb96eac8434fac1d8861c905e9b761bd0442beb2cfcc0211354 \
-                                size    20969192
+version                         14.1.4
+checksums                       rmd160  a6d7c10eeae7b895194751e7a79dd4efa18b87f8 \
+                                sha256  043877c0857d8d46067cd2f18809d54fc876c399f0ecd438f60ea7f4d8037451 \
+                                size    20972012
 use_xz                          yes
 
 set thisbranch                  [strsed ${name} "g/^${my_name}//"]
